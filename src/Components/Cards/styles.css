@@ -1,0 +1,41 @@
+.cards {
+    display: flex;
+    justify-content: flex-start;
+    width: calc(50%);
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.card {
+    width: 100%;
+    padding: 15px 10px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+
+
+    background: #003DB2;
+    border-radius: 5px;
+    color: #fff;
+}
+
+
+.card strong {
+    letter-spacing: .04rem;
+}
+.btn-trash {
+    position: absolute;
+    width: 32px !important;
+    height: 100% !important;
+    margin-bottom: 20px !important;
+    background: url('../../assets/trash1.svg') center center no-repeat !important;
+    border: none;
+    align-self: center;
+    cursor: pointer;
+}
+
+.btn-trash:hover {
+    background: url('../../assets/trash2.svg') center center no-repeat !important;
+
+}
+
